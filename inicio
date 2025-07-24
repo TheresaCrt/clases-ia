@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende Inteligencia Artificial desde Cero</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .hero {
+      background: linear-gradient(to bottom right, #111, #444);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .precios {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .precio {
+      background: #f0f0f0;
+      padding: 15px;
+      border-left: 5px solid #0077cc;
+    }
+    .contacto {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .contacto a {
+      background: #0077cc;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contacto a:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Aprende Inteligencia Artificial desde Cero</h1>
+    <p>Clases por horas para adultos que quieren aprender a usar la IA en su día a día</p>
+  </div>
+
+  <div class="container">
+    <h2>¿A quién va dirigido?</h2>
+    <p>Estas clases están pensadas para personas mayores de 30 años, sin conocimientos técnicos previos, que quieran aprender de forma práctica a usar herramientas como ChatGPT, asistentes virtuales o automatización digital.</p>
+
+    <h2>Opciones de clase</h2>
+    <div class="precios">
+      <div class="precio">
+        <strong>Clase individual (1 hora):</strong> 35 €<br>
+        Sesión personalizada 100% adaptada a tu ritmo.
+      </div>
+      <div class="precio">
+        <strong>Bono mensual (4 clases de 1 hora):</strong> 120 €<br>
+        Ahorra y avanza con continuidad.
+      </div>
+      <div class="precio">
+        <strong>Curso completo "IA para el día a día" (5 clases):</strong> 145 €<br>
+        Incluye guía en PDF ejercicios y certificado. 
+      </div>
+    </div>
+
+    <div class="contacto">
+      <p>¿Te interesa? Escríbeme por WhatsApp o email:</p>
+      <a href="https://wa.me/34602694056" target="_blank">📲 Hablar por WhatsApp</a>
+    </div>
+  </div>
+</body>
+</html>
